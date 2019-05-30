@@ -1,18 +1,18 @@
 # Steps
 
-* Setup
+* Setup in Ubutu 14.04.4
 ```
 sudo apt update && sudo apt install git -y
 ```
 
 * Git clone this repo
 ```
-git clone https://bitbucket.org/umbrela/myopenhab-setup-scripts
+git clone https://github.com/ytyc2k/OpenHab_Cloud.git
 ```
 
 * Run script
 ```
-cd myopenhab-setup-scripts
+cd OpenHab_Cloud
 chmod +x setup.sh
 ./setup.sh
 ```
