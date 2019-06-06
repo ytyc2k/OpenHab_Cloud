@@ -8,7 +8,7 @@ productionEnv = process.env.NODE_ENV || 'production';
 
 const Email = require('email-templates');
 
-if (productionEnv === 'production') {
+if (productionEnv === 'productionEnv') {
 	module.exports.sendEmail = function(email, subject, templateName, locals,
 			cb) {
 		try {
